@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+	int arr[5]={1,2,3,4,5};
+	int lb=0;
+	int ub=4;
+	int item=9;
+	for (int i=lb;i<=ub;i++)
+	{
+		if(arr[i]==item)
+		{
+			cout<<"disply found index yes correcrt :";
+			return 0;
+		}
+		 
+		
+	}
+cout<<"not found";	
+}
